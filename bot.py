@@ -1,2 +1,2 @@
 def run():
-    print('Hola Mundo')
+    print('Adios mundo')
