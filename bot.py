@@ -2,10 +2,10 @@ def run():
     # Import the requests module for send a PUT request
     import requests
     # Import the base64 module for encoding a file to base64
-    import base64     githubAPIURL = "https://api.github.com/repos/daniyc4/test/contents/new-image.jpg"
+    import base64     githubAPIURL = "https://api.github.com/repos/daniyc4/test/contents/my-local-image.jpg"
     # Replace "bracketcounters" with your username, replace "test-repo" with your repository name and replace "new-image.png" with the filename you want to upload from local to GitHub.     # Paste your API token here
-    githubToken = "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" 
-    with open("2.jpg", "rb") as f:
+    githubToken = "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" 
+    with open("my-local-image.jpg", "rb") as f:
         # Encoding "my-local-image.jpg" to base64 format
         encodedData = base64.b64encode(f.read())         headers = {
             "Authorization": f'''Bearer {githubToken}''',
