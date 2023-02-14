@@ -8,7 +8,7 @@ githubAPIURL = "https://api.github.com/repos/daniyc4/test/contents/new-image.jpg
 # Replace "bracketcounters" with your username, replace "test-repo" with your repository name and replace "new-image.png" with the filename you want to upload from local to GitHub.
 
 # Paste your API token here
-githubToken = "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"
+githubToken = "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"
 
 
 with open("my-local-image.jpg", "rb") as f:
